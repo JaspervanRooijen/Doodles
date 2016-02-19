@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class AssignmentEllen {
+public class AssignmentImplement {
 
 	//Implementation Assignment Algorithms & Datastructures week 2.
 		
