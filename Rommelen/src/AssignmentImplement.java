@@ -33,7 +33,18 @@ public class AssignmentImplement {
 		System.out.println("Nu komt de test van de assignment method");
 		
 		int[] testarray = {1, 5, 3, 7, 6, 8, 9, 1, 1, 14, 18, 5};
-		testarray.removeRandom();
+		// testarray.removeRandom();
+		/**
+		 * Dit werkt niet want testarray is niet een class, dus je kunt er geen method op uitvoeren....
+		 * jammer joh
+		 */
+
+		AssignmentImplement ai = new AssignmentImplement();
+		ai.removeRandom(testarray);
+		/**
+		 * Dit werkt wel omdat je nu een instance aanmaakt van AssignmentImplement, in die instantie de
+		 * method aanroept en je testarray aan de method meegeeft ipv de method aan de testarray.
+		 */
 		
 	}
 	
